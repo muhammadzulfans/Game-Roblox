@@ -316,7 +316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
-  jumpForce: 9
+  jumpForce: 8
 --- !u!50 &1258461853
 Rigidbody2D:
   serializedVersion: 5
@@ -382,7 +382,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 3.36, y: 5.48}
+    oldSize: {x: 3.46, y: 5.48}
     newSize: {x: 3.46, y: 5.48}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
