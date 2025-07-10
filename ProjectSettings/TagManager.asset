@@ -5,16 +5,17 @@ TagManager:
   serializedVersion: 3
   tags:
   - Ground
+  - Obstacle
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Terrain
   - Water
   - UI
   - 
   - 
-  - 
+  - Obstacle
   - 
   - 
   - 

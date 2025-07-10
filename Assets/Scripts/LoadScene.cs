@@ -22,6 +22,11 @@ public class LoadScene : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+    
+    public void exitGame()
+    {
+    	Application.Quit();
+    }	
 
     // Start is called before the first frame update
     void Start()
