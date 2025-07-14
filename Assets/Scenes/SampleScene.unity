@@ -1243,6 +1243,7 @@ MonoBehaviour:
   - {fileID: 4487728833242829800, guid: a6f1cb153a88f3646a77312f768e935c, type: 3}
   obstacleSpawTime: 3
   obstacleSpeed: 5
+  playerMovement: {fileID: 1258461856}
 --- !u!4 &857190653
 Transform:
   m_ObjectHideFlags: 0
@@ -1829,7 +1830,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   runSpeed: 8
-  jumpForce: 10
+  jumpForce: 7
   jumpableGround:
     serializedVersion: 2
     m_Bits: 8
@@ -1895,10 +1896,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1200, y: 600}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
